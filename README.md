@@ -1,4 +1,4 @@
-# Engineering Assessment Frontend (React)
+# Engineering Assessment Frontend (React) - Hai Le
 
 ## Project Initialization
 
@@ -9,31 +9,34 @@
 3. Set your node environment
 
    - Run `nvm install && nvm use`, or
+   - Alternatively manually set your Node.js to version 18+ and npm to version 10+
 
-   - Alternatively manually set your node to v18+ and npm to v10+
+4. Run `npm install` to install dependencies  
+   **Note:** Make sure your node environment is correctly configured before running this step.
 
-4. Run `npm install` to install dependencies
+5. Set up environment variables:
 
-   Note: Ensure you have properly set your node version before this step
+   - Create the following three environment files in the root directory:
 
-5. Run `npm run dev` to spin-up the frontend
+     - `.env.development`
+     - `.env.test`
+     - `.env.production`
 
-   The terminal should display the port to view the frontend application in your browser (e.g. `http://localhost:5173/`).
+   - Each file should contain the following:
 
-   You can check that the frontend is running correctly by opening the provided url in your browser, where you should see a simple "Hello World" landing page.
+     ```env
+     VITE_API_URL=http://localhost:3000/v1/api
+     ```
 
-## Project Work
+     - This environment variable tells the frontend where to send API requests.
+     - Modify the URL if your backend uses a different port or base path.
 
-1. Complete all of your work in the working branch that you created above
+   - **Do not commit these `.env.*` files** — they are ignored via `.gitignore`.
 
-2. Push commits to your remote working branch as often as you need
+6. Run `npm run dev` to spin up the frontend
 
-## Project Submission
+   The terminal should display the port where the frontend is running (e.g. `http://localhost:5173/`).
 
-When you are ready to submit your work:
+   You can check that the frontend is working correctly by opening the provided URL in your browser — you should see the landing page to upload the Recepit Extractor
 
-1. Create a PR into `main` branch
-
-2. Merge the above PR
-
-**⚠️ IMPORTANT: The above action is a one-time submission event. Do not open a PR until you are ready to submit your project.**
+---
