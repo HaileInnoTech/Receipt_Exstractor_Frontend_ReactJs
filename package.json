@@ -7,7 +7,7 @@
     "dev": "vite --mode development --host --port 5173",
     "test": "vite --mode test --host --port 5173",
     "pro": "vite build --mode production",
-    "build": "vite build",
+    "build": "vite build --mode production",
     "lint": "eslint .",
     "preview": "vite preview"
   },
