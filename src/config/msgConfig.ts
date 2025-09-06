@@ -3,7 +3,7 @@ export const UPDATE_ALL = "updateAll";
 export const UPLOAD = "Extract Receipts Content";
 export const RESET = "Reset";
 
-export const UploadPageTitle = "asdasdasdasdsad";
+export const UploadPageTitle = "Upload Receipt Image - Receipt Extractor - Test CI/CD";
 export const UploadImageText = "Drag and drop your image here";
 export const OR = "OR";
 export const ONLY_JPG_JPEG_PNG = "Only JPG, JPEG, and PNG files are allowed.";
