@@ -3,7 +3,7 @@ export const UPDATE_ALL = "updateAll";
 export const UPLOAD = "Extract Receipts Content";
 export const RESET = "Reset";
 
-export const UploadPageTitle = "Upload Receipt Image - Receipt Extractor - Test CI/CD Jenkin  ";
+export const UploadPageTitle = "Upload Receipt Image - Receipt Extractor - Test CI/CD Jenkin pipeline  ";
 export const UploadImageText = "Drag and drop your image here";
 export const OR = "OR";
 export const ONLY_JPG_JPEG_PNG = "Only JPG, JPEG, and PNG files are allowed.";
